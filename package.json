@@ -1,5 +1,5 @@
 {
-    "name": "robofriends",
+    "name": "robotfriends",
     "version": "0.1.0",
     "private": true,
     "homepage": "https://pohanwu89.github.io/robotfriends/",
@@ -12,11 +12,10 @@
     },
     "scripts": {
         "start": "react-scripts start",
+        "deploy": "gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "yarn run build",
-        "deploy": "gh-pages -d build"
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": "react-app"
