@@ -2,14 +2,16 @@
     "name": "robotfriends",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://pohanwu89.github.io/robotfriends/index.html",
+    "homepage": "https://pohanwu89.github.io/robotfriends/src/index.html",
     "dependencies": {
         "gh-pages": "^2.0.1",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
+        "react-redux": "^7.1.0",
         "react-scripts": "3.0.1",
+        "redux": "^4.0.4",
         "tachyons": "^4.11.1",
-        "yarn": "^1.16.0"
+        "yarn": "^1.17.3"
     },
     "scripts": {
         "start": "react-scripts start",
